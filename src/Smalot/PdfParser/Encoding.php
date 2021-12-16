@@ -110,7 +110,7 @@ class Encoding extends PDFObject
         return $details;
     }
 
-    public function translateChar($dec): int
+    public function translateChar($dec): ?int
     {
         if (isset($this->mapping[$dec])) {
             $dec = $this->mapping[$dec];
@@ -120,9 +120,7 @@ class Encoding extends PDFObject
     }
 
     /**
-     * Returns the name of the encoding class, if available.
-     *
-     * @return string Returns encoding class name if available or empty string (only prior PHP 7.4).
+     * Returns encoding class name if available or empty string (only prior PHP 7.4).
      *
      * @throws \Exception On PHP 7.4+ an exception is thrown if encoding class doesn't exist.
      */
