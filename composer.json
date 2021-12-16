@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-0": {
-            "lyhiving\\PdfParser\\": "src/"
+            "Smalot\\PdfParser\\": "src/"
         }
     },
     "autoload-dev": {
