@@ -1,5 +1,5 @@
 {
-    "name": "smalot/pdfparser",
+    "name": "lyhiving/pdfparser",
     "description": "Pdf parser library. Can read and extract information from pdf file.",
     "keywords": ["PDF", "text", "parser", "parse", "extract"],
     "type": "library",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Smalot\\PdfParser\\": "src/"
+            "lyhiving\\PdfParser\\": "src/"
         }
     },
     "autoload-dev": {
